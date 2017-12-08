@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #cecccf; }
+
+.top {
+  width: 1016px;
+  height: 112px;
+  margin: 0 auto;
+  background: url(../images/M4_5_134701.jpg) no-repeat; }
+
+.box {
+  width: 1016px;
+  height: 587px;
+  background: white;
+  margin: 0 auto;
+  display: flex; }
+  .box .left {
+    width: 455px;
+    height: 384px;
+    padding: 30px 60px 25px 80px; }
+  .box .right {
+    width: 510px;
+    height: 524px; }
+    .box .right .top1 {
+      width: 400px;
+      height: 60px;
+      display: flex;
+      justify-content: space-around; }
+      .box .right .top1 a {
+        display: block;
+        padding: 20px; }
+      .box .right .top1 .a2 {
+        color: black;
+        border-bottom: 4px solid black; }
+      .box .right .top1 .a1 {
+        color: #DDDDDD; }
+    .box .right .form {
+      width: 400px;
+      height: 523px;
+      border: 1px solid #DDDDDD;
+      position: relative; }
+      .box .right .form .in1 {
+        background: url(../images/1.bmp) no-repeat left; }
+      .box .right .form .in2 {
+        background: url(../images/1.bmp) no-repeat left; }
+      .box .right .form .in3 {
+        background: url(../images/2.bmp) no-repeat left; }
+      .box .right .form .in4 {
+        background: url(../images/2.bmp) no-repeat left; }
+      .box .right .form p {
+        color: #DDDDDD; }
+      .box .right .form .p1 {
+        position: absolute;
+        left: 62px;
+        top: 40px; }
+      .box .right .form .p2 {
+        position: absolute;
+        left: 62px;
+        top: 112px; }
+      .box .right .form .p3 {
+        position: absolute;
+        left: 62px;
+        top: 185px; }
+      .box .right .form .p4 {
+        position: absolute;
+        left: 62px;
+        top: 259px; }
+      .box .right .form input {
+        width: 326px;
+        height: 41px;
+        margin: 30px 35px 0 35px;
+        border-radius: 10px;
+        border: 1px solid #DDDDDD;
+        outline: none;
+        text-indent: 20px; }
+      .box .right .form #span1 {
+        position: absolute;
+        left: 50px;
+        top: 70px; }
+      .box .right .form #span2 {
+        position: absolute;
+        left: 50px;
+        top: 140px; }
+      .box .right .form #span3 {
+        position: absolute;
+        left: 50px;
+        top: 215px; }
+      .box .right .form #span4 {
+        position: absolute;
+        left: 50px;
+        top: 285px; }
+      .box .right .form .d {
+        display: flex;
+        position: relative; }
+        .box .right .form .d .in5 {
+          width: 123px;
+          height: 40px; }
+        .box .right .form .d .p5 {
+          position: absolute;
+          left: 62px;
+          top: 40px; }
+        .box .right .form .d .a3 {
+          display: block;
+          position: absolute;
+          right: 36px;
+          top: 8px;
+          color: #DDDDDD; }
+        .box .right .form .d .xuanze {
+          width: 194px;
+          height: 40px;
+          margin-top: 30px;
+          margin-left: -30px;
+          border: 1px solid black; }
+      .box .right .form .btn {
+        background: #e30165;
+        padding: 12px 90px;
+        margin-left: 48px;
+        margin-top: 36px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px; }
+      .box .right .form .checkbox {
+        display: flex;
+        margin-left: 48px;
+        margin-top: 20px; }
+        .box .right .form .checkbox .check {
+          width: 20px;
+          height: 20px;
+          margin: 0; }
+        .box .right .form .checkbox span {
+          color: #e30165;
+          font-weight: 900;
+          cursor: pointer; }
+
+.foot {
+  margin: 0 auto;
+  width: 800px;
+  height: 50px;
+  text-align: center;
+  margin-top: 80px; }
+  .foot ul {
+    margin-left: 80px; }
+  .foot li {
+    float: left;
+    margin: 3px; }
+    .foot li a {
+      font-size: 12px;
+      color: black; }
+  .foot p {
+    font-size: 12px;
+    float: left; }
+
+/*# sourceMappingURL=regsiter.css.map */

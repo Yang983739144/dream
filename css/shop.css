@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.top-wrap {
+  width: 100%;
+  border-bottom: 1px solid #DDDDDD; }
+  .top-wrap .top {
+    width: 1200px;
+    height: 26px; }
+    .top-wrap .top .ul {
+      float: left;
+      margin-left: 225px; }
+
+/*# sourceMappingURL=shop.css.map */

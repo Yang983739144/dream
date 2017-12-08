@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #cecccf; }
+
+.top {
+  width: 1016px;
+  height: 112px;
+  margin: 0 auto;
+  background: url(../images/M4_5_134701.jpg) no-repeat; }
+
+.box {
+  width: 1016px;
+  height: 524px;
+  background: white;
+  margin: 0 auto;
+  display: flex; }
+  .box .left {
+    width: 455px;
+    height: 384px;
+    padding: 30px 60px 25px 80px; }
+  .box .right {
+    width: 510px;
+    height: 524px; }
+    .box .right .top1 {
+      width: 400px;
+      height: 60px;
+      display: flex;
+      justify-content: space-around; }
+      .box .right .top1 a {
+        display: block;
+        padding: 20px; }
+      .box .right .top1 .a1 {
+        color: black;
+        border-bottom: 4px solid black; }
+      .box .right .top1 .a2 {
+        color: #DDDDDD; }
+    .box .right .form {
+      width: 400px;
+      height: 440px;
+      border: 1px solid #DDDDDD;
+      position: relative; }
+      .box .right .form .two {
+        display: none; }
+      .box .right .form .dongtai {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 38px; }
+      .box .right .form .dongtai1 {
+        width: 182px;
+        height: 40px;
+        border-radius: 10px; }
+      .box .right .form .phonedong {
+        width: 130px;
+        height: 30px;
+        background: pink;
+        margin-left: 20px;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 10px;
+        cursor: pointer; }
+      .box .right .form #span {
+        position: absolute;
+        left: 38px;
+        top: 80px; }
+      .box .right .form #phone {
+        position: absolute;
+        left: 70px;
+        top: 40px; }
+      .box .right .form #span2 {
+        position: absolute;
+        left: 38px;
+        top: 80px; }
+      .box .right .form #phone2 {
+        position: absolute;
+        left: 70px;
+        top: 40px; }
+      .box .right .form #count1 {
+        background: url(../images/1.bmp) no-repeat left;
+        color: #000000; }
+      .box .right .form #span1 {
+        position: absolute;
+        left: 38px;
+        top: 175px; }
+      .box .right .form #phone1 {
+        position: absolute;
+        left: 70px;
+        top: 135px; }
+      .box .right .form #count {
+        background: url(../images/1.bmp) no-repeat left;
+        color: #000000; }
+      .box .right .form #passward {
+        background: url(../images/2.bmp) no-repeat left;
+        color: #000000; }
+      .box .right .form .input1 {
+        text-indent: 30px;
+        width: 325px;
+        height: 42px;
+        border: 1px solid #DDDDDD;
+        border-radius: 10px;
+        margin: 30px 38px 20px 38px;
+        outline: none; }
+      .box .right .form .input {
+        width: 123px;
+        height: 40px;
+        border-radius: 10px;
+        margin: 46px 0 0 38px;
+        outline: none;
+        text-indent: 20px; }
+      .box .right .form .a31 {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        color: #DDDDDD; }
+      .box .right .form .d {
+        display: flex;
+        position: relative; }
+        .box .right .form .d .a3 {
+          display: block;
+          position: absolute;
+          right: 30px;
+          top: 20px;
+          color: #DDDDDD; }
+        .box .right .form .d .xuanze {
+          width: 194px;
+          height: 40px;
+          margin-top: 46px;
+          margin-left: 10px;
+          border: 1px solid black; }
+      .box .right .form .w {
+        width: 324px;
+        height: 40px;
+        padding: 10px 0;
+        margin-left: 38px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between; }
+        .box .right .form .w .a4 {
+          color: black; }
+        .box .right .form .w .a5 {
+          color: #e50065; }
+      .box .right .form button {
+        width: 324px;
+        height: 42px;
+        background: #e30165;
+        margin-left: 38px;
+        margin-top: -10px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer; }
+      .box .right .form .other {
+        margin-left: 38px;
+        display: flex; }
+        .box .right .form .other span {
+          margin-top: 20px; }
+        .box .right .form .other img {
+          margin: 10px 10px; }
+
+.foot {
+  margin: 0 auto;
+  width: 800px;
+  height: 50px;
+  text-align: center;
+  margin-top: 80px; }
+  .foot ul {
+    margin-left: 80px; }
+  .foot li {
+    float: left;
+    margin: 3px; }
+    .foot li a {
+      font-size: 12px;
+      color: black; }
+  .foot p {
+    font-size: 12px;
+    float: left; }
+
+/*# sourceMappingURL=entry.css.map */

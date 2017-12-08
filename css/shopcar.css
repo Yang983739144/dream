@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-family: iconfont; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font4/iconfont.eot");
+  src: url("../font4/iconfont.eot?#iefix") format("embedded-opentype"), url("../font4/iconfont.woff") format("woff"), url("../font4/iconfont.ttf") format("truetype"), url("../font4/iconfont.svg#iconfont") format("svg"); }
+.top1 {
+  width: 1291px;
+  height: 65px;
+  margin: 0 auto;
+  background: url(../imgshop/M12_5_103400.jpg);
+  position: relative; }
+  .top1 img {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 80px;
+    cursor: pointer; }
+
+.top-wrap {
+  width: 100%;
+  background: #f5f5f5; }
+  .top-wrap .top {
+    width: 1290px;
+    height: 34px;
+    margin: 0 auto;
+    line-height: 34px; }
+    .top-wrap .top .span1 {
+      color: gray;
+      cursor: pointer; }
+    .top-wrap .top .list {
+      float: right;
+      position: relative; }
+      .top-wrap .top .list li {
+        float: left; }
+        .top-wrap .top .list li a {
+          color: #CCCCCC;
+          border-right: 1px solid #CCCCCC;
+          padding: 0 15px;
+          font-size: 12px; }
+          .top-wrap .top .list li a:hover {
+            color: #cb2a70; }
+      .top-wrap .top .list .weixin1-1 {
+        position: absolute;
+        top: 33px;
+        right: 400px;
+        display: none; }
+      .top-wrap .top .list .weibo1-1 {
+        position: absolute;
+        top: 33px;
+        right: 330px;
+        display: none; }
+      .top-wrap .top .list .phone1-1 {
+        position: absolute;
+        top: 33px;
+        right: 230px;
+        display: none; }
+
+.all-wrap {
+  z-index: 999;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  display: none;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #DDDDDD; }
+  .all-wrap a {
+    color: #DDDDDD; }
+    .all-wrap a:hover {
+      color: #e50064; }
+  .all-wrap span {
+    color: #e50064; }
+  .all-wrap .all {
+    width: 1140px;
+    height: 373px;
+    margin: 0 auto; }
+    .all-wrap .all .last1 {
+      float: left;
+      width: 500px;
+      height: 90px;
+      display: flex; }
+      .all-wrap .all .last1 span {
+        color: #e50064; }
+      .all-wrap .all .last1 p {
+        color: #DDDDDD; }
+      .all-wrap .all .last1 .last1-1 {
+        width: 144px;
+        height: 90px;
+        float: left; }
+      .all-wrap .all .last1 .last1-2 {
+        width: 144px;
+        height: 90px;
+        float: left;
+        margin-left: 30px; }
+      .all-wrap .all .last1 .last1-3 {
+        width: 144px;
+        height: 90px;
+        float: left;
+        margin-left: 60px; }
+    .all-wrap .all .left1 {
+      float: left; }
+    .all-wrap .all .center {
+      float: left;
+      margin-top: 30px;
+      width: 386px;
+      margin-left: -90px;
+      border-right: 1px solid #DDDDDD; }
+      .all-wrap .all .center .Tu {
+        display: flex;
+        padding-right: 5px; }
+    .all-wrap .all .right {
+      float: right; }
+    .all-wrap .all .shoes {
+      width: 500px;
+      border-right: 1px solid #DDDDDD;
+      display: flex; }
+      .all-wrap .all .shoes div {
+        border-bottom: 1px solid #DDDDDD;
+        margin: 0px 10px; }
+      .all-wrap .all .shoes .woman {
+        width: 140px;
+        height: 214px; }
+
+.nav {
+  width: 1280px;
+  height: 102px;
+  background: red;
+  line-height: 102px; }
+
+/*# sourceMappingURL=shopcar.css.map */
