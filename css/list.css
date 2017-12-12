@@ -1,0 +1,718 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-family: iconfont; }
+
+img {
+  vertical-align: bottom; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font4/iconfont.eot");
+  src: url("../font4/iconfont.eot?#iefix") format("embedded-opentype"), url("../font4/iconfont.woff") format("woff"), url("../font4/iconfont.ttf") format("truetype"), url("../font4/iconfont.svg#iconfont") format("svg"); }
+.top1 {
+  width: 1291px;
+  height: 65px;
+  margin: 0 auto;
+  background: url("../imgshop/M12_5_103400.jpg");
+  position: relative; }
+  .top1 img {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 80px;
+    cursor: pointer; }
+
+.top-wrap {
+  width: 100%;
+  background: #f5f5f5; }
+  .top-wrap .top {
+    width: 1290px;
+    height: 34px;
+    margin: 0 auto;
+    line-height: 34px; }
+    .top-wrap .top .span1 {
+      color: gray;
+      cursor: pointer; }
+    .top-wrap .top .list {
+      float: right;
+      position: relative;
+      z-index: 9000; }
+      .top-wrap .top .list li {
+        float: left; }
+        .top-wrap .top .list li a {
+          color: #CCCCCC;
+          border-right: 1px solid #CCCCCC;
+          padding: 0 15px;
+          font-size: 12px; }
+          .top-wrap .top .list li a:hover {
+            color: #cb2a70; }
+      .top-wrap .top .list .weixin1-1 {
+        position: absolute;
+        top: 33px;
+        right: 400px;
+        display: none; }
+      .top-wrap .top .list .weibo1-1 {
+        position: absolute;
+        top: 33px;
+        right: 330px;
+        display: none; }
+      .top-wrap .top .list .phone1-1 {
+        position: absolute;
+        top: 33px;
+        right: 230px;
+        display: none; }
+
+.all-wrap {
+  z-index: 999;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  display: none;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #DDDDDD; }
+  .all-wrap a {
+    color: #DDDDDD; }
+    .all-wrap a:hover {
+      color: #e50064; }
+  .all-wrap span {
+    color: #e50064; }
+  .all-wrap .all {
+    width: 1140px;
+    height: 373px;
+    margin: 0 auto; }
+    .all-wrap .all .last1 {
+      float: left;
+      width: 500px;
+      height: 90px;
+      display: flex; }
+      .all-wrap .all .last1 span {
+        color: #e50064; }
+      .all-wrap .all .last1 p {
+        color: #DDDDDD; }
+      .all-wrap .all .last1 .last1-1 {
+        width: 144px;
+        height: 90px;
+        float: left; }
+      .all-wrap .all .last1 .last1-2 {
+        width: 144px;
+        height: 90px;
+        float: left;
+        margin-left: 30px; }
+      .all-wrap .all .last1 .last1-3 {
+        width: 144px;
+        height: 90px;
+        float: left;
+        margin-left: 60px; }
+    .all-wrap .all .left1 {
+      float: left; }
+    .all-wrap .all .center {
+      float: left;
+      margin-top: 30px;
+      width: 386px;
+      margin-left: -90px;
+      border-right: 1px solid #DDDDDD; }
+      .all-wrap .all .center .Tu {
+        display: flex;
+        padding-right: 5px; }
+    .all-wrap .all .right {
+      float: right; }
+    .all-wrap .all .shoes {
+      width: 500px;
+      border-right: 1px solid #DDDDDD;
+      display: flex; }
+      .all-wrap .all .shoes div {
+        border-bottom: 1px solid #DDDDDD;
+        margin: 0 10px; }
+      .all-wrap .all .shoes .woman {
+        width: 140px;
+        height: 214px; }
+
+.nav {
+  width: 1280px;
+  height: 82px;
+  margin: 0 auto;
+  background: url(../imgshop/logomoonbasa.png) no-repeat left;
+  padding-top: 20px; }
+  .nav .serve .serve-left {
+    float: left;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 250px;
+    border-left: 1px solid #DDDDDD;
+    margin-top: 10px; }
+    .nav .serve .serve-left .moxiang {
+      color: #555555;
+      font-size: 12px;
+      cursor: pointer; }
+    .nav .serve .serve-left .pmoxiang {
+      background: black;
+      color: white;
+      cursor: pointer; }
+  .nav .serve .serve-right {
+    width: 650px;
+    height: 40px;
+    float: right; }
+    .nav .serve .serve-right .box-input {
+      display: flex;
+      position: relative; }
+      .nav .serve .serve-right .box-input .serve-input {
+        width: 474px;
+        height: 40px;
+        outline: none;
+        box-sizing: border-box;
+        border: 1px solid #e40462;
+        text-indent: 30px; }
+      .nav .serve .serve-right .box-input #list {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        background: white; }
+        .nav .serve .serve-right .box-input #list li {
+          width: 444px;
+          height: 20px;
+          border: 1px dashed #D4D4D4;
+          padding: 5px; }
+          .nav .serve .serve-right .box-input #list li:hover {
+            background: #ddd; }
+      .nav .serve .serve-right .box-input .btn1 {
+        width: 100px;
+        height: 40px;
+        background: #e40462;
+        border: none;
+        box-sizing: border-box;
+        outline: none; }
+      .nav .serve .serve-right .box-input .btn2 {
+        width: 100px;
+        height: 40px;
+        background: black;
+        color: white;
+        border: none;
+        box-sizing: border-box;
+        outline: none;
+        margin-left: 3px; }
+
+.logoimg-wrap {
+  width: 100%;
+  background: black; }
+  .logoimg-wrap .logoimg {
+    width: 1280px;
+    height: 104px;
+    margin: 0 auto;
+    background: url("../listimg/b-Monteamor.jpg") no-repeat center; }
+
+.listall {
+  width: 1280px;
+  height: 38px;
+  margin: 0 auto;
+  position: relative; }
+  .listall .list1 {
+    float: left; }
+    .listall .list1 li {
+      float: left;
+      padding: 10px 16px; }
+      .listall .list1 li:hover {
+        background: #DDDDDD; }
+      .listall .list1 li a {
+        font-size: 12px;
+        color: black; }
+  .listall .list1-1 {
+    width: 276px;
+    background: gray;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    top: 40px;
+    left: 54px;
+    display: none; }
+    .listall .list1-1 li {
+      padding: 0;
+      float: left; }
+      .listall .list1-1 li a {
+        font-size: 12px;
+        color: black;
+        padding: 0 10px;
+        border-right: 1px solid #DDDDDD; }
+        .listall .list1-1 li a:hover {
+          color: green; }
+  .listall .list1-2 {
+    width: 320px;
+    background: gray;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    top: 40px;
+    left: 108px;
+    display: none; }
+    .listall .list1-2 li {
+      padding: 0;
+      float: left; }
+      .listall .list1-2 li a {
+        font-size: 12px;
+        color: black;
+        padding: 0 10px;
+        border-right: 1px solid #DDDDDD; }
+        .listall .list1-2 li a:hover {
+          color: green; }
+  .listall .list1-3 {
+    width: 320px;
+    background: gray;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    top: 40px;
+    left: 162px;
+    display: none; }
+    .listall .list1-3 li {
+      padding: 0;
+      float: left; }
+      .listall .list1-3 li a {
+        font-size: 12px;
+        color: black;
+        padding: 0 10px;
+        border-right: 1px solid #DDDDDD; }
+        .listall .list1-3 li a:hover {
+          color: green; }
+  .listall .list1-4 {
+    width: 320px;
+    background: gray;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    top: 40px;
+    left: 270px;
+    display: none; }
+    .listall .list1-4 li {
+      padding: 0;
+      float: left; }
+      .listall .list1-4 li a {
+        font-size: 12px;
+        color: black;
+        padding: 0 10px;
+        border-right: 1px solid #DDDDDD; }
+        .listall .list1-4 li a:hover {
+          color: green; }
+  .listall .list1-5 {
+    width: 320px;
+    background: gray;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+    display: none; }
+    .listall .list1-5 li {
+      padding: 0;
+      float: left; }
+      .listall .list1-5 li a {
+        font-size: 12px;
+        color: black;
+        padding: 0 10px;
+        border-right: 1px solid #DDDDDD; }
+        .listall .list1-5 li a:hover {
+          color: green; }
+  .listall .list2 {
+    float: right; }
+    .listall .list2 li {
+      float: left;
+      padding: 10px 16px; }
+      .listall .list2 li:hover {
+        background: #DDDDDD; }
+      .listall .list2 li a {
+        font-size: 12px;
+        color: black; }
+
+.banner1 {
+  width: 1280px;
+  margin: 0 auto; }
+  .banner1 img {
+    width: 1280px; }
+
+.box {
+  width: 1280px;
+  margin: 0 auto;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .box dl {
+    width: 290px;
+    height: 483px;
+    background: white;
+    margin: 5px 10px; }
+    .box dl dt img {
+      width: 287px;
+      height: 387px; }
+    .box dl dd {
+      line-height: 32px;
+      text-align: center; }
+      .box dl dd span {
+        cursor: pointer; }
+        .box dl dd span:hover {
+          color: gray; }
+      .box dl dd p {
+        font-size: 12px;
+        color: #DDDDDD; }
+        .box dl dd p a {
+          color: #c4002a; }
+
+.banner-img {
+  margin: 0 auto;
+  width: 1280px; }
+  .banner-img img {
+    width: 1280px; }
+
+.good {
+  width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  cursor: pointer;
+  background: url(../listimg/jietu1.jpg);
+  padding-bottom: 20px; }
+  .good dl {
+    background: white;
+    position: relative;
+    width: 250px;
+    height: 404px;
+    text-align: left;
+    padding: 10px 0; }
+    .good dl dt img {
+      width: 225px;
+      height: 303px;
+      margin-left: 4px; }
+    .good dl dd {
+      z-index: 900; }
+      .good dl dd p {
+        color: #ff0000; }
+        .good dl dd p a {
+          font-size: 40px;
+          color: #ff0000; }
+      .good dl dd button {
+        width: 232px;
+        border: none;
+        background: #9e0021;
+        color: white;
+        height: 38px;
+        cursor: pointer; }
+      .good dl dd img {
+        width: 250px;
+        height: 38px; }
+    .good dl .jingbao {
+      background: red;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      position: absolute;
+      bottom: 50px;
+      right: 0; }
+      .good dl .jingbao p:first-child {
+        border-bottom: 1px solid #DDDDDD;
+        font-size: 12px;
+        color: white; }
+      .good dl .jingbao p:nth-child(2) {
+        font-size: 24px;
+        color: white; }
+
+.banner-img1 {
+  margin: 0 auto;
+  width: 1280px; }
+  .banner-img1 img {
+    width: 1280px; }
+
+.good1 {
+  width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+  background: url(../listimg/jietu1.jpg);
+  padding-bottom: 20px; }
+  .good1 dl {
+    background: white;
+    margin: 10px;
+    width: 230px;
+    height: 404px;
+    text-align: center;
+    padding: 10px 0; }
+    .good1 dl dt img {
+      width: 225px;
+      height: 303px;
+      margin-left: 4px; }
+    .good1 dl dd {
+      z-index: 900; }
+      .good1 dl dd p {
+        color: #ff0000; }
+        .good1 dl dd p a {
+          font-size: 40px;
+          color: #ff0000; }
+      .good1 dl dd img {
+        width: 230px;
+        height: 38px; }
+    .good1 dl .jingbao {
+      background: red;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      position: absolute;
+      bottom: 50px;
+      right: 0; }
+      .good1 dl .jingbao p:first-child {
+        border-bottom: 1px solid #DDDDDD;
+        font-size: 12px;
+        color: white; }
+      .good1 dl .jingbao p:nth-child(2) {
+        font-size: 24px;
+        color: white; }
+
+.foot-wrap {
+  width: 100%;
+  background: #ececec; }
+  .foot-wrap .foot {
+    width: 1080px;
+    height: 160px;
+    margin: 0 auto; }
+    .foot-wrap .foot .foot-list {
+      float: left;
+      margin: 20px 25px; }
+      .foot-wrap .foot .foot-list a {
+        color: #7f7f7f;
+        font-size: 12px; }
+    .foot-wrap .foot .erweima {
+      float: right; }
+
+.foot-img {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center; }
+  .foot-img img {
+    border-right: 1px solid #DDDDDD;
+    margin: 20px; }
+
+.foot-word {
+  margin-top: 30px;
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px; }
+  .foot-word a {
+    color: #797979;
+    font-size: 14px; }
+
+.smallimg {
+  padding-top: 50px;
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center; }
+
+.out {
+  width: 34px;
+  height: 678px;
+  background: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999; }
+  .out .t1 {
+    width: 34px;
+    height: 196px;
+    border-bottom: 1px solid #DDDDDD;
+    position: relative; }
+    .out .t1 .tan {
+      width: 276px;
+      height: 217px;
+      position: absolute;
+      right: 34px;
+      background: white;
+      top: 168px;
+      text-align: center;
+      display: none; }
+      .out .t1 .tan .shoucang {
+        width: 276px;
+        height: 44px;
+        display: flex;
+        border-top: 1px solid #969896;
+        text-align: center;
+        cursor: pointer; }
+        .out .t1 .tan .shoucang .cang1 {
+          width: 137px;
+          height: 34px;
+          background: #DDDDDD;
+          border-right: 1px solid #969896;
+          font-size: 16px;
+          padding-top: 10px; }
+        .out .t1 .tan .shoucang .cang2 {
+          width: 137px;
+          height: 34px;
+          background: #CCCCCC;
+          font-size: 16px;
+          padding-top: 10px; }
+      .out .t1 .tan img {
+        margin-top: 50px; }
+      .out .t1 .tan span {
+        cursor: pointer;
+        display: block;
+        float: right;
+        color: black;
+        font-size: 30px; }
+      .out .t1 .tan button {
+        border: 1px solid #C10055;
+        width: 100px;
+        height: 30px;
+        margin: 10px; }
+      .out .t1 .tan #denglu {
+        color: white;
+        background: #C10055; }
+        .out .t1 .tan #denglu a {
+          color: white; }
+        .out .t1 .tan #denglu:hover {
+          background: white; }
+          .out .t1 .tan #denglu:hover a {
+            color: #C10055; }
+      .out .t1 .tan #zhuce {
+        color: #C10055;
+        background: white; }
+        .out .t1 .tan #zhuce a {
+          color: #C10055; }
+        .out .t1 .tan #zhuce:hover {
+          background: #C10055; }
+          .out .t1 .tan #zhuce:hover a {
+            color: white; }
+    .out .t1 #tou {
+      font-family: iconfont;
+      font-size: 30px;
+      color: white;
+      font-weight: 900;
+      width: 34px;
+      display: block;
+      position: absolute;
+      bottom: 0; }
+      .out .t1 #tou:hover {
+        background: #c10055; }
+  .out .car {
+    width: 34px;
+    height: 114px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center; }
+    .out .car:hover {
+      background: #c10055; }
+    .out .car .shop-car {
+      width: 277px;
+      height: 678px;
+      background: #DDDDDD;
+      position: absolute;
+      top: 0;
+      right: 34px;
+      display: none; }
+      .out .car .shop-car .word {
+        float: left;
+        margin: 20px; }
+      .out .car .shop-car .close1 {
+        float: right;
+        font-size: 30px;
+        margin: 10px 20px; }
+        .out .car .shop-car .close1 a {
+          color: black; }
+      .out .car .shop-car .plist {
+        position: absolute;
+        bottom: 400px;
+        left: 50px; }
+    .out .car .a5 {
+      font-family: iconfont;
+      color: white;
+      font-weight: 900;
+      font-size: 20px; }
+    .out .car .p {
+      font-size: 18px;
+      color: white; }
+    .out .car span {
+      font-size: 8px;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: red;
+      border-radius: 50%;
+      text-align: center;
+      margin-left: 8px; }
+  .out .wei {
+    width: 34px;
+    height: 200px;
+    text-align: center;
+    position: relative; }
+    .out .wei .wode {
+      width: 106px;
+      height: 36px;
+      position: absolute;
+      right: 34px;
+      top: 0;
+      background: white;
+      padding: 2px;
+      line-height: 36px;
+      cursor: pointer;
+      display: none; }
+    .out .wei .wode1 {
+      width: 106px;
+      height: 36px;
+      position: absolute;
+      right: 34px;
+      top: 90px;
+      background: white;
+      padding: 2px;
+      line-height: 36px;
+      cursor: pointer;
+      display: none; }
+    .out .wei .ma {
+      position: absolute;
+      right: 34px;
+      top: 44px;
+      display: none; }
+    .out .wei .xin {
+      width: 19px;
+      padding: 12px 8px; }
+      .out .wei .xin:hover {
+        background: #c10055; }
+    .out .wei .we {
+      width: 19px;
+      padding: 12px 8px; }
+      .out .wei .we:hover {
+        background: #c10055; }
+    .out .wei .erji {
+      width: 34px; }
+      .out .wei .erji:hover {
+        background: #c10055; }
+  .out .erweima {
+    width: 34px;
+    height: 34px; }
+    .out .erweima .imgli {
+      position: absolute;
+      bottom: 0px;
+      right: 33px; }
+    .out .erweima .erweima1 {
+      font-family: iconfont;
+      width: 34px;
+      padding: 12px 0px;
+      color: white;
+      display: block;
+      text-align: center; }
+      .out .erweima .erweima1:hover {
+        background: #c10055; }
+  .out .up {
+    width: 34px;
+    color: white;
+    display: block;
+    text-align: center; }
+    .out .up:hover {
+      background: #c10055; }
+
+/*# sourceMappingURL=list.css.map */

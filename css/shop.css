@@ -11,11 +11,281 @@ a {
 .top-wrap {
   width: 100%;
   border-bottom: 1px solid #DDDDDD; }
-  .top-wrap .top {
-    width: 1200px;
-    height: 26px; }
-    .top-wrap .top .ul {
+
+.top {
+  width: 1280px;
+  height: 28px;
+  margin: 0 auto; }
+  .top img {
+    float: left; }
+  .top .list {
+    float: left; }
+    .top .list li {
       float: left;
-      margin-left: 225px; }
+      margin: 0 10px; }
+      .top .list li a {
+        border-right: 1px solid #DDDDDD;
+        padding-right: 20px;
+        color: black;
+        font-size: 12px; }
+  .top .list1 {
+    float: right; }
+    .top .list1 li {
+      float: left;
+      margin: 0 10px; }
+      .top .list1 li a {
+        border-right: 1px solid #DDDDDD;
+        padding-right: 20px;
+        color: black;
+        font-size: 12px; }
+        .top .list1 li a img {
+          width: 20px;
+          height: 20px; }
+
+.logo {
+  width: 1280px;
+  margin: 0 auto;
+  height: 108px; }
+  .logo .right {
+    float: right;
+    margin-top: 20px;
+    background-position-y: 20px;
+    width: 630px;
+    height: 30px;
+    background: url(../shopimg/jietu4.jpg); }
+
+#img1 {
+  border: 1px solid #DDDDDD;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 400px; }
+
+.bottom-right1 {
+  display: none;
+  position: fixed;
+  width: 1280px;
+  height: 130px;
+  border: 1px solid #ddd;
+  background: white;
+  right: 60px;
+  text-align: right; }
+  .bottom-right1 span {
+    font-size: 20px; }
+    .bottom-right1 span a {
+      color: #eb0067; }
+    .bottom-right1 span span {
+      font-size: 30px;
+      color: #eb0067; }
+  .bottom-right1 p {
+    margin-left: 80px;
+    margin-top: 30px; }
+    .bottom-right1 p button {
+      width: 226px;
+      height: 48px;
+      background: #eb0067;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 30px; }
+
+.box {
+  width: 1280px;
+  height: 368px;
+  border: 1px solid #DDDDDD;
+  margin: 0 auto; }
+  .box .box-top {
+    width: 1280px;
+    height: 36px;
+    background: #ebebeb;
+    display: flex;
+    line-height: 30px; }
+    .box .box-top div {
+      margin-left: 92px; }
+      .box .box-top div input {
+        width: 30px;
+        height: 20px;
+        margin-top: 5px; }
+    .box .box-top .span1 {
+      margin-left: 20px; }
+    .box .box-top .span2 {
+      margin-left: 233px; }
+    .box .box-top .span3 {
+      margin-left: 268px; }
+    .box .box-top .span4 {
+      margin-left: 100px; }
+    .box .box-top .span5 {
+      margin-left: 106px; }
+    .box .box-top .span6 {
+      margin-left: 70px; }
+  .box .content-top {
+    width: 1118px;
+    height: 30px;
+    margin: 0 auto;
+    background: #DDDDDD; }
+  .box .list {
+    border-bottom: 1px solid #DDDDDD; }
+    .box .list .box-list {
+      width: 1118px;
+      height: 65px;
+      margin: 0 auto;
+      display: flex; }
+      .box .list .box-list #input {
+        margin-top: 10px; }
+      .box .list .box-list #img img {
+        float: right;
+        width: 40px;
+        height: 50px; }
+      .box .list .box-list #name {
+        margin-top: 10px;
+        margin-left: 16px; }
+        .box .list .box-list #name span {
+          font-size: 14px; }
+        .box .list .box-list #name p {
+          font-size: 14px;
+          color: #DDDDDD; }
+      .box .list .box-list #price {
+        margin-top: 10px;
+        margin-left: 192px; }
+        .box .list .box-list #price span {
+          font-size: 10px; }
+      .box .list .box-list #num {
+        margin-top: 10px;
+        margin-left: 84px;
+        display: flex;
+        width: 78px;
+        height: 30px;
+        text-align: center; }
+        .box .list .box-list #num div {
+          width: 20px;
+          height: 30px;
+          border: 1px solid #DDDDDD; }
+        .box .list .box-list #num a {
+          color: black; }
+      .box .list .box-list #addprice {
+        margin-top: 10px;
+        margin-left: 70px; }
+      .box .list .box-list #play {
+        margin-left: 70px; }
+        .box .list .box-list #play span {
+          font-size: 14px;
+          cursor: pointer; }
+        .box .list .box-list #play p {
+          font-size: 14px;
+          color: #DDDDDD;
+          cursor: pointer; }
+  .box .box-bottom img {
+    margin-top: 24px;
+    margin-left: 60px; }
+  .box .box-bottom .bottom-right {
+    float: right;
+    margin-top: 80px; }
+    .box .box-bottom .bottom-right span {
+      font-size: 20px; }
+      .box .box-bottom .bottom-right span a {
+        color: #eb0067; }
+      .box .box-bottom .bottom-right span span {
+        font-size: 30px;
+        color: #eb0067; }
+    .box .box-bottom .bottom-right p {
+      margin-left: 80px;
+      margin-top: 30px; }
+      .box .box-bottom .bottom-right p button {
+        width: 226px;
+        height: 48px;
+        background: #eb0067;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 30px; }
+
+.hot {
+  width: 1280px;
+  border: 1px solid #DDDDDD;
+  margin: 0 auto;
+  height: 482px;
+  margin-top: 30px; }
+  .hot h2 {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px 0; }
+  .hot .dl {
+    text-align: center; }
+    .hot .dl dl {
+      width: 190px;
+      height: 340px;
+      float: left;
+      margin: 23px 33px; }
+      .hot .dl dl dt img {
+        width: 190px;
+        height: 250px; }
+      .hot .dl dl dd .bottom {
+        width: 190px;
+        height: 55px;
+        background: #f0f2f1;
+        text-align: center; }
+        .hot .dl dl dd .bottom span {
+          color: #797979;
+          cursor: pointer; }
+          .hot .dl dl dd .bottom span:hover {
+            color: #D70077; }
+        .hot .dl dl dd .bottom a {
+          text-decoration: line-through;
+          color: #DDDDDD; }
+        .hot .dl dl dd .bottom p {
+          color: #d90077;
+          border: none;
+          padding: 0;
+          text-align: center;
+          margin: 0 5px; }
+      .hot .dl dl dd p {
+        cursor: pointer;
+        margin-top: 20px;
+        margin: 0 auto;
+        width: 84px;
+        height: 22px;
+        border: 1px solid #D70077;
+        padding: 2px 5px;
+        color: #D70077; }
+
+.foot-wrap {
+  width: 100%;
+  background: #ececec; }
+  .foot-wrap .foot {
+    width: 1080px;
+    height: 160px;
+    margin: 0 auto; }
+    .foot-wrap .foot .foot-list {
+      float: left;
+      margin: 20px 25px; }
+      .foot-wrap .foot .foot-list a {
+        color: #7f7f7f;
+        font-size: 12px; }
+    .foot-wrap .foot .erweima {
+      float: right; }
+
+.foot-img {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center; }
+  .foot-img img {
+    border-right: 1px solid #DDDDDD;
+    margin: 20px; }
+
+.foot-word {
+  margin-top: 30px;
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px; }
+  .foot-word a {
+    color: #797979;
+    font-size: 14px; }
+
+.smallimg {
+  padding-top: 50px;
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center; }
 
 /*# sourceMappingURL=shop.css.map */
