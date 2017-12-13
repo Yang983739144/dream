@@ -45,7 +45,7 @@
 				
 				
 				 <div class="d">
-			     <a class="a3" href="javascript:;">换一张</a>
+			     <a id="change" class="a3" href="javascript:;">换一张</a>
 				<input class="in5" type="text" />
 				<p class="p5">验证码</p>
 				<div id="yanzheng" class="xuanze"></div>
@@ -92,3 +92,29 @@
 </html>
 <script type="text/javascript" src="js/registerjQUERY.js" ></script>
 <script type="text/javascript" src="js/register.js" ></script>
+<script>
+
+
+
+function $(id){
+	return document.getElementById(id);
+}
+		$("yanzheng").innerHTML=createVerifyCode();
+	$("change").onclick = function(){
+		$("yanzheng").innerHTML=createVerifyCode();
+	}
+	
+	
+		
+	function createVerifyCode() {
+	var sSeeds = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+
+	var sVerify = '';
+	for(var i = 0; i < 4; i++) {
+		var iIndex = Math.floor(Math.random() * sSeeds.length);
+		sVerify += sSeeds[iIndex];
+	}
+
+	return sVerify;
+}
+</script>

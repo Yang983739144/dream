@@ -386,7 +386,7 @@
                     	   <button class="btn1">
                     	   	立即购买
                     	   </button>
-                    	    <button class="btn2">
+                    	    <button class="btn2" id='buycar'>
                     	   	加入购物车
                     	   </button>
                     	</div>
@@ -727,3 +727,17 @@
 <script type="text/javascript" src="js/jsonp.js"></script>
 <script type="text/javascript" src="js/large.js"></script>
 <script type="text/javascript" src="js/shopcar.js" ></script>
+<script src="https://cdn.bootcss.com/jquery/1.8.3/jquery.js"></script>
+<script>
+	$('#buycar').bind('click', function () {
+           let arr=[];
+			arr.push({
+				name:'陌橡moshine陌橡加绒蕾丝衫女长袖上衣百搭加厚高领打底衫GD8025S38',
+				count:1,
+				danjia:89,
+				imgurl:'imgshop/970143302-CL03-02-L.jpg'
+			})
+			document.cookie="shop="+JSON.stringify(arr);
+       });
+
+</script>

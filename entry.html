@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" href="css/entry.css" />
-		
-<script src="https://cdn.bootcss.com/jquery/1.8.3/jquery.js"></script>
+
+		<script src="https://cdn.bootcss.com/jquery/1.8.3/jquery.js"></script>
 	</head>
+
 	<body>
 		<div class="top">
-		
+
 		</div>
-		
-		
-		
+
 		<div class="box">
 			<div class="left">
 				<img src="images/M8_23_104640.jpg" />
@@ -25,91 +25,163 @@
 				</div>
 				<form class="form">
 					<div class="one">
-				<input id="count"  class="input1" type="text" />
-				<p id="phone">请输入手机号/邮箱/会员账号</p>
-				<span id="span">
+						<input id="count" class="input1" type="text" />
+						<p id="phone">请输入手机号/邮箱/会员账号</p>
+						<span id="span">
 				
 				</span>
-				<input id="passward"class="input1" type="password" />
-				<p id="phone1">请输入密码</p>
-				<span id="span1">
+						<input id="passward" class="input1" type="password" />
+						<p id="phone1">请输入密码</p>
+						<span id="span1">
 				
 				</span>
-			    <div class="d">
-			     <a class="a3" href="javascript:;">换一张</a>
-				<input value="验证码" class="input" type="text" />
-				<div id="yanzheng" class="xuanze"></div>
-				</div>
-				
-				</div>
-				
-				<div class="two">
-				<input id="count1"  class="input1" type="text" />
-				<p id="phone2">请输入手机号/邮箱/会员账号</p>
-				<span id="span2">
-				
-				</span>
-				 <div class="d">
-			     <a class="a31" href="javascript:;">换一张</a>
-				<input value="验证码" class="input" type="text" />
-				<div id="yanzheng1" class="xuanze"></div>
-				</div>
-				
-				<div class="dongtai">
-					<input class="dongtai1" type="text" />
-					<div class="phonedong">
-						获取手机动态口令
+						<div class="d">
+							<a id="change" class="a3" href="javascript:;">换一张</a>
+							<input value="验证码" class="input" type="text" />
+							<div id="yanzheng" class="xuanze"></div>
+						</div>
+
 					</div>
-				</div>
-				</div>
+
+					<div class="two">
+						<input name="account" id="count1" class="input1" type="text" />
+						<p id="phone2">请输入手机号/邮箱/会员账号</p>
+						<span id="span2">
 				
-				
-				
-				
-				
-				
-				
-				
-				<div class="w">
-					<a class="a4" href="javascript:;">忘记密码?</a>
-					<a class="a5" href="register.html">注册</a>
-				</div>
-				<button>立即登录</button>
-				
-				<div class="other">
-					<span>
+				</span>
+						<div class="d">
+							<a id="change1" class="a31" href="javascript:;">换一张</a>
+							<input name="passward" value="验证码" class="input" type="text" />
+							<div id="yanzheng1" class="xuanze"></div>
+						</div>
+
+						<div class="dongtai">
+							<input class="dongtai1" type="text" />
+							<div class="phonedong">
+								获取手机动态口令
+							</div>
+						</div>
+					</div>
+
+					<div class="w">
+						<a class="a4" href="javascript:;">忘记密码?</a>
+						<a class="a5" href="register.html">注册</a>
+					</div>
+					<button id="btn">立即登录</button>
+
+					<div class="other">
+						<span>
 						其他登录方式:
 					</span>
-					<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=100269270&redirect_uri=http://login.moonbasa.com/tencent/loginback&state=d59c6b14ec1f44b8a7737b3196c99172&scope=get_user_info"><img src="images/qqlogo0.jpg" /></a>
-					<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx7f28216bac410ea8&redirect_uri=http%3a%2f%2flogin.moonbasa.com%2fWeixin%2fLoginPostBack&response_type=code&scope=snsapi_login&state=351f565efe124571853960f27b70a2bc#wechat_redirect"><img src="images/wx.jpg" /></a>
-					<a href="https://api.weibo.com/oauth2/authorize?client_id=2498197250&response_type=code&redirect_uri=https://login.moonbasa.com/WeiBo/LoginPostBack"><img src="images/weibologin0.jpg" /></a>
-					<a href="https://auth.alipay.com/login/express.htm?goto=https%3A%2F%2Fmemberexprod.alipay.com%3A443%2Fauthorize%2FuserAuthQuickLoginAction.htm%3Fe_i_i_d%3Dc24199e3af4f3f9bd52a945b2951bcc3"><img src="images/l_050.jpg" /></a>
-				</div>
-				</form>	
+						<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=100269270&redirect_uri=http://login.moonbasa.com/tencent/loginback&state=d59c6b14ec1f44b8a7737b3196c99172&scope=get_user_info"><img src="images/qqlogo0.jpg" /></a>
+						<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx7f28216bac410ea8&redirect_uri=http%3a%2f%2flogin.moonbasa.com%2fWeixin%2fLoginPostBack&response_type=code&scope=snsapi_login&state=351f565efe124571853960f27b70a2bc#wechat_redirect"><img src="images/wx.jpg" /></a>
+						<a href="https://api.weibo.com/oauth2/authorize?client_id=2498197250&response_type=code&redirect_uri=https://login.moonbasa.com/WeiBo/LoginPostBack"><img src="images/weibologin0.jpg" /></a>
+						<a href="https://auth.alipay.com/login/express.htm?goto=https%3A%2F%2Fmemberexprod.alipay.com%3A443%2Fauthorize%2FuserAuthQuickLoginAction.htm%3Fe_i_i_d%3Dc24199e3af4f3f9bd52a945b2951bcc3"><img src="images/l_050.jpg" /></a>
+					</div>
+				</form>
 			</div>
 		</div>
-		
-		
-		
+
 		<div class="foot">
-		
+
 			<ul>
-				<li><a href="javascript">首页</a></li>
-				<li><a href="javascript">公司简介</a></li>
-				<li><a href="javascript">旗下品牌</a></li>
-				<li><a href="javascript">零售店址</a></li>
-				<li><a href="javascript">梦芭莎网盟</a></li>
-				<li><a href="javascript">网店代理</a></li>
-				<li><a href="javascript">网站地图</a></li>
-				<li><a href="javascript">友情链接</a></li>
-				<li><a href="javascript">加入我们</a></li>
+				<li>
+					<a href="javascript">首页</a>
+				</li>
+				<li>
+					<a href="javascript">公司简介</a>
+				</li>
+				<li>
+					<a href="javascript">旗下品牌</a>
+				</li>
+				<li>
+					<a href="javascript">零售店址</a>
+				</li>
+				<li>
+					<a href="javascript">梦芭莎网盟</a>
+				</li>
+				<li>
+					<a href="javascript">网店代理</a>
+				</li>
+				<li>
+					<a href="javascript">网站地图</a>
+				</li>
+				<li>
+					<a href="javascript">友情链接</a>
+				</li>
+				<li>
+					<a href="javascript">加入我们</a>
+				</li>
 			</ul>
-	 
+
 			<p>
 				Copyright © 2010-2019 梦芭莎官方网站，广州摩拉网络科技有限公司 All Rights Reserved 粤B2-20080069号
 			</p>
 		</div>
 	</body>
+
 </html>
-<script type="text/javascript" src="js/entry.js" ></script>
-<script type="text/javascript" src="js/entryjQuery.js" ></script>
+<script type="text/javascript" src="js/entry.js"></script>
+<script type="text/javascript" src="js/entryjQuery.js"></script>
+<script>
+function $(id){
+	return document.getElementById(id);
+}
+window.onload = function(){
+	$("btn").onclick =function(){
+		//1、创建对象
+		let xhr = new XMLHttpRequest();
+		
+		//2、设置请求参数
+		let userName = $("count").value;
+		let passId = $("passward").value;
+		xhr.open("get","shop.php?userId="+userName+"&userPass="+passId,true);
+		
+		//3、回调函数
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState==4 && xhr.status==200){
+				if(xhr.responseText=="1"){
+				
+					
+					location.href="index.html";
+				}else{
+					alert("亲，用户名或者密码不对！");
+				}
+			}
+		}
+	
+		xhr.send();		
+	};
+	
+	
+	$("yanzheng").innerHTML=createVerifyCode();
+	$("change").onclick = function(){
+		$("yanzheng").innerHTML=createVerifyCode();
+	}
+	
+		$("yanzheng1").innerHTML=createVerifyCode();
+	$("change1").onclick = function(){
+		$("yanzheng1").innerHTML=createVerifyCode();
+	}
+	
+	
+	
+	
+	
+	
+	function createVerifyCode() {
+	var sSeeds = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+
+	var sVerify = '';
+	for(var i = 0; i < 4; i++) {
+		var iIndex = Math.floor(Math.random() * sSeeds.length);
+		sVerify += sSeeds[iIndex];
+	}
+
+	return sVerify;
+}
+
+	
+}
+
+</script>
