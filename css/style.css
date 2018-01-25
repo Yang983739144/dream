@@ -232,7 +232,8 @@ dl {
   right: 70px;
   top: 300px;
   cursor: pointer;
-  display: none; }
+  display: none;
+  z-index: 99999; }
   .fly a {
     display: block;
     width: 100px;

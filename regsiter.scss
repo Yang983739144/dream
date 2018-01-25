@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #cecccf;
+}
+
+.top{
+    width: 1016px;
+    height: 112px;
+    margin: 0 auto;
+ background: url(../images/M4_5_134701.jpg)no-repeat;
+}
+
+.box{
+    width: 1016px;
+    height: 587px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    .left{
+        width: 455px;
+        height:384px;
+        padding: 30px 60px 25px 80px;
+    }
+    .right{
+        width: 510px;
+        height: 524px;
+     
+        .top1{
+            width: 400px;
+            height: 60px;
+         
+            display: flex;
+            justify-content: space-around;
+            a{
+                display: block;
+                padding: 20px;
+        
+            }
+            .a2{
+                color: black;
+                border-bottom: 4px solid black;
+            }
+            .a1{
+                color: #DDDDDD;
+            }
+            
+        }
+        .form{
+            width: 400px;
+            height: 523px;
+            border: 1px solid #DDDDDD;
+            position: relative;
+                .in1{
+                      background: url(../images/1.bmp)no-repeat left;
+                }
+                .in2{
+                      background: url(../images/1.bmp)no-repeat left;
+                }
+                .in3{
+                      background: url(../images/2.bmp)no-repeat left;
+                }
+                .in4{
+                      background: url(../images/2.bmp)no-repeat left;
+                }
+                p{
+                    color: #DDDDDD;
+                }
+                .p1{
+                    position: absolute;
+                    left: 62px;
+                    top: 40px;
+                }
+                .p2{
+                    position: absolute;
+                    left: 62px;
+                    top: 112px;
+                }
+                .p3{
+                    position: absolute;
+                    left: 62px;
+                    top: 185px;
+                }
+                .p4{
+                    position: absolute;
+                    left: 62px;
+                    top: 259px;
+                }
+                input{
+                    width: 326px;
+                    height: 41px;
+                    margin: 30px 35px 0 35px;
+                    border-radius: 10px;
+                    border: 1px solid #DDDDDD;
+                    outline: none;
+                    text-indent: 20px;
+                }
+                #span1{
+                 
+                 position: absolute;
+                 left: 50px;
+                 top: 70px;
+                }
+                #span2{
+                  
+                 position: absolute;
+                 left: 50px;
+                 top: 140px;
+                }
+                #span3{
+                  
+                 position: absolute;
+                 left: 50px;
+                 top: 215px;
+                }
+                #span4{
+               
+                 position: absolute;
+                 left: 50px;
+                 top: 285px;
+                }
+                .d{
+                display: flex;
+                position: relative;
+                .in5{
+                    width: 123px;
+                    height: 40px;
+                }
+                .p5{
+                     position: absolute;
+                    left: 62px;
+                    top: 40px;
+                }
+                .a3{
+                    display:block;
+                    position:absolute ;
+                    right: 36px;
+                    top: 8px;
+                    color: #DDDDDD;
+                }
+                .xuanze{
+                width: 194px;
+                height: 40px;
+                margin-top: 30px;
+                margin-left: -30px;
+                border: 1px solid black;
+                text-align: center;
+                line-height: 40px;
+                font-weight: 900;
+                font-size: 40px;
+                background: red;
+               }
+             
+            }
+            .btn{
+                   background: #e30165;
+                   padding: 12px 90px;
+                   margin-left: 48px;
+                   margin-top: 36px;
+                   border: none;
+                   color: white;
+                   cursor: pointer;
+                   border-radius: 10px;
+                   
+               }
+               .checkbox{
+                   display: flex;
+                   margin-left: 48px;
+                   margin-top: 20px;
+                   .check{
+                   width: 20px;
+                   height: 20px;
+                   margin: 0;
+                   
+               }
+               span{
+                       color: #e30165;
+                       font-weight: 900;
+                       cursor: pointer;
+                   }
+               }
+               
+               
+            
+        }
+    }
+ 
+}
+
+.foot{
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    margin-top: 80px;
+ ul{
+     margin-left: 80px;
+ }
+    li{
+        float: left;
+        margin: 3px;
+        a{
+            font-size: 12px;
+            color: black;
+        }
+    }
+    p{
+        font-size: 12px;
+        float: left;
+    }
+}

@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #cecccf;
+}
+
+.top{
+    width: 1016px;
+    height: 112px;
+    margin: 0 auto;
+ background: url(../images/M4_5_134701.jpg)no-repeat;
+}
+
+.box{
+    width: 1016px;
+    height: 524px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    .left{
+        width: 455px;
+        height:384px;
+        padding: 30px 60px 25px 80px;
+    }
+    .right{
+        width: 510px;
+        height: 524px;
+     
+        .top1{
+            width: 400px;
+            height: 60px;
+         
+            display: flex;
+            justify-content: space-around;
+            a{
+                display: block;
+                padding: 20px;
+        
+            }
+            .a1{
+                color: black;
+                border-bottom: 4px solid black;
+            }
+            .a2{
+                color: #DDDDDD;
+            }
+            
+        }
+        .form{
+            width: 400px;
+            height: 440px;
+            border: 1px solid #DDDDDD;
+            position: relative;
+            .two{
+                display: none;
+            }
+            .dongtai{
+                display: flex;
+                margin-top: 30px;
+                margin-left: 38px;
+            }
+            .dongtai1{
+                width: 182px;
+                height: 40px;
+                border-radius: 10px;
+            }
+            .phonedong{
+                width: 130px;
+                height: 30px;
+                background: pink;
+                margin-left: 20px;
+                color: white;
+                font-size: 12px;
+                text-align: center;
+                padding-top: 10px;
+                cursor: pointer;
+         
+            }
+            #span{
+               position: absolute;
+               left: 38px;
+               top: 80px;
+               
+            }
+            #phone{
+                position: absolute;
+                left: 70px;
+                top: 40px;
+            }
+            #span2{
+               position: absolute;
+               left: 38px;
+               top: 80px;
+               
+            }
+            #phone2{
+                position: absolute;
+                left: 70px;
+                top: 40px;
+            }
+            #count1{
+                background: url(../images/1.bmp)no-repeat left;
+                color: #000000;
+            }
+            #span1{
+               position: absolute;
+               left: 38px;
+               top: 175px;
+               
+            }
+            #phone1{
+                position: absolute;
+                left: 70px;
+                top: 135px;
+            }
+            #count{
+                background: url(../images/1.bmp)no-repeat left;
+                color: #000000;
+            }
+            #passward{
+                background: url(../images/2.bmp)no-repeat left;
+                color: #000000;
+            }
+            .input1{
+                text-indent: 30px;
+                width: 325px;
+                height: 42px;
+                border: 1px solid #DDDDDD;
+                border-radius: 10px;
+                margin: 30px 38px 20px 38px;
+                outline: none;
+            }
+            .input{
+                width: 123px;
+                height: 40px;
+                border-radius: 10px;
+                margin: 46px 0 0 38px;
+                outline: none;
+                text-indent: 20px;
+            }
+            .a31{
+                    display:block;
+                    position:absolute ;
+                    right: 30px;
+                    top: 20px;
+                    color: #DDDDDD;
+                }
+            .d{
+                display: flex;
+                position: relative;
+                .a3{
+                    display:block;
+                    position:absolute ;
+                    right: 30px;
+                    top: 20px;
+                    color: #DDDDDD;
+                }
+                .xuanze{
+                width: 194px;
+                height: 40px;
+                margin-top: 46px;
+                margin-left: 10px;
+                border: 1px solid black;
+                background: red;
+                text-align: center;
+                font-size: 50px;
+                line-height:35px;
+                font-weight: 900;
+               }
+            }
+            .w{
+                width: 324px;
+                height: 40px;
+                padding: 10px 0;
+                margin-left: 38px;
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                .a4{
+                    color: black;
+                }
+                .a5{
+                    color: #e50065;
+                }
+            }
+            button{
+                 width: 324px;
+                 height: 42px;
+                 background: #e30165;
+                 margin-left: 38px;
+                 margin-top: -10px;
+                 border: none;
+                 border-radius: 10px;
+                 color: white;
+                 font-size: 16px;
+                 cursor: pointer;
+            }
+            .other{
+                margin-left: 38px;
+                display: flex;
+                span{
+                    margin-top: 20px;
+                }
+                img{
+                    margin: 10px 10px;
+                }
+            }
+            
+        }
+    }
+ 
+}
+
+.foot{
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    margin-top: 80px;
+ ul{
+     margin-left: 80px;
+ }
+    li{
+        float: left;
+        margin: 3px;
+        a{
+            font-size: 12px;
+            color: black;
+        }
+    }
+    p{
+        font-size: 12px;
+        float: left;
+    }
+}
